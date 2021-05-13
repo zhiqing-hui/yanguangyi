@@ -1,0 +1,3697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>798</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>BlankCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="yanguangyi">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_main_win">
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>941</width>
+        <height>741</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton_clear">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>544</y>
+         <width>74</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/down/5.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_set">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>545</y>
+         <width>74</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/down/set.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="geometry">
+        <rect>
+         <x>401</x>
+         <y>6</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="insertPolicy">
+        <enum>QComboBox::InsertAlphabetically</enum>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/12.0.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/12.0.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/12.0.png</selectedoff>:/toppage/icon/shouye_top/12.0.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/13.5.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/13.5.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/13.5.png</selectedoff>:/toppage/icon/shouye_top/13.5.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/15.0.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/15.0.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/15.0.png</selectedoff>:/toppage/icon/shouye_top/15.0.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/0.0.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/0.0.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/0.0.png</selectedoff>:/toppage/icon/shouye_top/0.0.png</iconset>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>544</y>
+         <width>74</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/down/2.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_show_pic">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>60</y>
+         <width>640</width>
+         <height>480</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(30, 30, 30);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>6</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="insertPolicy">
+        <enum>QComboBox::InsertAlphabetically</enum>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/+.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/+.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/+.png</selectedoff>:/toppage/icon/shouye_top/+.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/-.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/-.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/-.png</selectedoff>:/toppage/icon/shouye_top/-.png</iconset>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_HIS">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>544</y>
+         <width>74</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/down/6.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_show_hateman">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>544</y>
+         <width>74</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/down/3.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_L_R1">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>270</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_L_R2">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>320</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_L_Axis">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>360</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_R">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>58</width>
+         <height>64</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/r.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_L_S">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>130</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_L_C">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>180</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_L_A">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>230</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_R_A">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>230</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_R_S">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>130</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_R_C">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>180</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_R_R2">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>310</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_R_Axis">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>350</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_R_R1">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 14pt &quot;黑体&quot;;
+color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>83</width>
+         <height>540</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/BG-left.png);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>130</y>
+         <width>15</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/S.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>180</y>
+         <width>15</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/C.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>230</y>
+         <width>15</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/A.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView_2">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>0</y>
+         <width>80</width>
+         <height>540</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/BG-right.png);</string>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>539</y>
+         <width>800</width>
+         <height>62</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/BG-down.png);</string>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView_4">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>0</y>
+         <width>642</width>
+         <height>60</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/BG-up.png);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_L">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>10</y>
+         <width>58</width>
+         <height>64</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/L.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>130</y>
+         <width>15</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/S.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>180</y>
+         <width>15</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/C.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>230</y>
+         <width>15</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/A.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_care_up">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>320</y>
+         <width>58</width>
+         <height>64</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/arrow_up.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_care_down">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>470</y>
+         <width>58</width>
+         <height>64</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/arrow_down.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_forward">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>320</y>
+         <width>58</width>
+         <height>64</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/5.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_backward">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>470</y>
+         <width>58</width>
+         <height>64</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/2.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>18</x>
+         <y>403</y>
+         <width>46</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/6.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>737</x>
+         <y>410</y>
+         <width>46</width>
+         <height>36</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/qianhou.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_MODE_result">
+       <property name="geometry">
+        <rect>
+         <x>214</x>
+         <y>545</y>
+         <width>103</width>
+         <height>52</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <property name="maxVisibleItems">
+        <number>10</number>
+       </property>
+       <property name="insertPolicy">
+        <enum>QComboBox::InsertAtBottom</enum>
+       </property>
+       <property name="sizeAdjustPolicy">
+        <enum>QComboBox::AdjustToContents</enum>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="duplicatesEnabled">
+        <bool>false</bool>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/toppage/down/ref.png</normaloff>
+          <activeoff>:/toppage/icon/toppage/down-press/ref.png</activeoff>
+          <selectedoff>:/toppage/icon/toppage/down-press/ref.png</selectedoff>:/toppage/icon/toppage/down/ref.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/toppage/down/ker.png</normaloff>
+          <activeoff>:/toppage/icon/toppage/down-press/ker.png</activeoff>
+          <selectedoff>:/toppage/icon/toppage/down-press/ker.png</selectedoff>:/toppage/icon/toppage/down/ker.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/toppage/down/K&amp;R.png</normaloff>
+          <activeoff>:/toppage/icon/toppage/down-press/K&amp;R.png</activeoff>
+          <selectedoff>:/toppage/icon/toppage/down-press/K&amp;R.png</selectedoff>:/toppage/icon/toppage/down/K&amp;R.png</iconset>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_guiwei">
+       <property name="geometry">
+        <rect>
+         <x>7</x>
+         <y>544</y>
+         <width>74</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/down/4.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_testkey">
+       <property name="geometry">
+        <rect>
+         <x>316</x>
+         <y>544</y>
+         <width>74</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/down/1.png);
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>500</y>
+         <width>29</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/toppage/num.png);
+background-color: rgba(85, 170, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="geometry">
+        <rect>
+         <x>525</x>
+         <y>8</y>
+         <width>104</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/toppage/icon/shouye_top/pd.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>8</y>
+         <width>127</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>40</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/.25.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/.25.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/.25.png</selectedoff>:/toppage/icon/shouye_top/.25.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/.12.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/.12.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/.12.png</selectedoff>:/toppage/icon/shouye_top/.12.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/.06.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/.06.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/.06.png</selectedoff>:/toppage/icon/shouye_top/.06.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icons.qrc">
+          <normaloff>:/toppage/icon/shouye_top/.01.png</normaloff>
+          <activeoff>:/toppage/icon/shouye_top/.01.png</activeoff>
+          <selectedoff>:/toppage/icon/shouye_top/.01.png</selectedoff>:/toppage/icon/shouye_top/.01.png</iconset>
+        </property>
+       </item>
+      </widget>
+      <widget class="QWidget" name="widget_show_hateman" native="true">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>110</y>
+         <width>602</width>
+         <height>285</height>
+        </rect>
+       </property>
+       <widget class="QPushButton" name="pushButtun_close_hateman">
+        <property name="geometry">
+         <rect>
+          <x>557</x>
+          <y>11</y>
+          <width>32</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/toppage/icon/hartmanngram/close.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_showhateman_all">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>599</width>
+          <height>280</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/toppage/icon/hartmanngram/BG.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_showhateman_r">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>50</y>
+          <width>299</width>
+          <height>231</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_showhateman_l">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>50</y>
+          <width>299</width>
+          <height>231</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>54</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;HGF5_CNKI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>R</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>50</y>
+          <width>54</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;HGF5_CNKI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>L</string>
+        </property>
+       </widget>
+       <zorder>label_showhateman_all</zorder>
+       <zorder>label_showhateman_l</zorder>
+       <zorder>label_showhateman_r</zorder>
+       <zorder>label_36</zorder>
+       <zorder>label_37</zorder>
+       <zorder>pushButtun_close_hateman</zorder>
+      </widget>
+      <widget class="QWidget" name="widget_show_history" native="true">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>200</y>
+         <width>591</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 170, 127, 0);</string>
+       </property>
+       <widget class="QPushButton" name="pushButton_close_history">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>230</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>退出</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_history_l_ref">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>0</y>
+          <width>302</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 170, 127);</string>
+        </property>
+        <property name="rowCount">
+         <number>6</number>
+        </property>
+        <property name="columnCount">
+         <number>3</number>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="horizontalHeaderHighlightSections">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <column>
+         <property name="text">
+          <string>L-SPH</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>L-CYL</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>L-A</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton_clear_history">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>230</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>清除</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_history_r_ref">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>302</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 170, 127);</string>
+        </property>
+        <property name="showGrid">
+         <bool>true</bool>
+        </property>
+        <property name="rowCount">
+         <number>6</number>
+        </property>
+        <property name="columnCount">
+         <number>3</number>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="horizontalHeaderHighlightSections">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <column>
+         <property name="text">
+          <string>R-SPH</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>R-CYL</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>R-A</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_history_r_ker">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>302</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 170, 127);</string>
+        </property>
+        <property name="showGrid">
+         <bool>true</bool>
+        </property>
+        <property name="rowCount">
+         <number>6</number>
+        </property>
+        <property name="columnCount">
+         <number>3</number>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="horizontalHeaderHighlightSections">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <column>
+         <property name="text">
+          <string>R-R1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>R-R2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>R-Axis</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_history_l_ker">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>0</y>
+          <width>302</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 170, 127);</string>
+        </property>
+        <property name="rowCount">
+         <number>6</number>
+        </property>
+        <property name="columnCount">
+         <number>3</number>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="horizontalHeaderHighlightSections">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <column>
+         <property name="text">
+          <string>L-R1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>L-R2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>L-Axis</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton_history_show_ker">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>230</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>KER</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_history_show_ref">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>230</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>REF</string>
+        </property>
+       </widget>
+       <zorder>pushButton_close_history</zorder>
+       <zorder>pushButton_clear_history</zorder>
+       <zorder>tableWidget_history_r_ker</zorder>
+       <zorder>tableWidget_history_l_ker</zorder>
+       <zorder>pushButton_history_show_ker</zorder>
+       <zorder>pushButton_history_show_ref</zorder>
+       <zorder>tableWidget_history_l_ref</zorder>
+       <zorder>tableWidget_history_r_ref</zorder>
+      </widget>
+      <widget class="QLabel" name="label_show_finished">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>470</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(85, 255, 127);
+font: 75 14pt &quot;仿宋&quot;;
+background-color: rgba(85, 255, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>start</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_show_temperture">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>500</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(129, 120, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_show_num_test">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>510</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(129, 120, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_PD">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>20</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(85, 85, 255, 0);
+font: 16pt &quot;黑体&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <zorder>graphicsView_3</zorder>
+      <zorder>graphicsView_2</zorder>
+      <zorder>pushButton_show_hateman</zorder>
+      <zorder>graphicsView</zorder>
+      <zorder>graphicsView_4</zorder>
+      <zorder>pushButton_clear</zorder>
+      <zorder>pushButton_set</zorder>
+      <zorder>pushButton_4</zorder>
+      <zorder>pushButton_R</zorder>
+      <zorder>label</zorder>
+      <zorder>label_2</zorder>
+      <zorder>label_3</zorder>
+      <zorder>pushButton_L</zorder>
+      <zorder>label_4</zorder>
+      <zorder>label_5</zorder>
+      <zorder>label_6</zorder>
+      <zorder>pushButton_care_up</zorder>
+      <zorder>pushButton_care_down</zorder>
+      <zorder>pushButton_forward</zorder>
+      <zorder>pushButton_backward</zorder>
+      <zorder>label_7</zorder>
+      <zorder>label_8</zorder>
+      <zorder>pushButton_HIS</zorder>
+      <zorder>pushButton_guiwei</zorder>
+      <zorder>label_show_pic</zorder>
+      <zorder>label_L_A</zorder>
+      <zorder>label_R_S</zorder>
+      <zorder>label_L_S</zorder>
+      <zorder>label_R_A</zorder>
+      <zorder>label_R_C</zorder>
+      <zorder>label_L_C</zorder>
+      <zorder>comboBox_MODE_result</zorder>
+      <zorder>comboBox</zorder>
+      <zorder>comboBox_2</zorder>
+      <zorder>comboBox_3</zorder>
+      <zorder>pushButton_9</zorder>
+      <zorder>label_L_Axis</zorder>
+      <zorder>label_L_R1</zorder>
+      <zorder>label_L_R2</zorder>
+      <zorder>label_R_R1</zorder>
+      <zorder>label_R_R2</zorder>
+      <zorder>label_R_Axis</zorder>
+      <zorder>pushButton_testkey</zorder>
+      <zorder>label_9</zorder>
+      <zorder>label_show_finished</zorder>
+      <zorder>widget_show_hateman</zorder>
+      <zorder>label_show_temperture</zorder>
+      <zorder>label_show_num_test</zorder>
+      <zorder>widget_show_history</zorder>
+      <zorder>label_PD</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>70</y>
+        <width>680</width>
+        <height>480</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>6</number>
+      </property>
+      <widget class="QWidget" name="page_quguangdu">
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>70</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>13.5</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_5">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>240</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>15.0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>200</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>步长</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_8">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>160</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_9">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>240</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>12.0</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_4">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>70</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>15.0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>120</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>柱镜</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_15">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>350</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>292</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>物像</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_10">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>240</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>13.5</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_11">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>240</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>0.0</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>70</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>12.0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>40</y>
+          <width>54</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>VD</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_16">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>350</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打开</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_7">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>160</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>+/-</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>70</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>0.0</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_6">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>160</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_qulv">
+       <widget class="QCheckBox" name="checkBox_19">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>350</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>标准</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_23">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>170</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>0.05</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>41</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>模式</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_12">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>170</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>0.12</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_26">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>170</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>0.25</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_18">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>80</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>平均</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_21">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>80</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>半径</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>302</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>靶标范围</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_14">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>250</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>1.332</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_17">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>350</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>接近</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>210</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>折射率</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_22">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>250</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>1.3375</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>130</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>步长</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_24">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>250</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>1.336</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_20">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>350</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_13">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>80</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>度数</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_moshi">
+       <widget class="QCheckBox" name="checkBox_39">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>290</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>30分</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>100</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>蜂鸣器</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_29">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>209</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>REF</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>261</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>待机</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_37">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>290</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>10分</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_38">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>130</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>大</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_31">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>290</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_27">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>130</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>小</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinBox">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>370</y>
+          <width>42</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_35">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>209</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>KER</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_single_eye">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>60</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>单眼</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>340</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>屏幕亮度</string>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>370</y>
+          <width>221</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>180</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>开机</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_25">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>290</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>5分</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>370</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>亮度：</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_36">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>130</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>中</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>测量</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_34">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_33">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>209</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>K R</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_printset">
+       <widget class="QCheckBox" name="checkBox_52">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>40</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>100%</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>80</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>屈光</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_30">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>250</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打开</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打印浓度</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>222</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>自动</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_48">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>110</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>平均</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>282</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打印清除</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_41">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>40</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>80%</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_54">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>310</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>340</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>基弧</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_47">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>180</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_55">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>310</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打开</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_60">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>370</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_40">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>110</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>标准</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_46">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>110</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_58">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>370</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打开</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>220</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>图形</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_42">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>180</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>标准</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_44">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>70%</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_50">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>180</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>平均</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_56">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>310</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_43">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_53">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>40</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>90%</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>280</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>SE</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_49">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>250</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_51">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>250</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打开</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_59">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>370</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打开</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>342</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>瞳孔直径</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_45">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>310</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打开</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_57">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>370</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>150</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>曲率</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_shuju">
+       <widget class="QDateTimeEdit" name="dateTimeEdit">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>90</y>
+          <width>401</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(195, 195, 195);</string>
+        </property>
+        <property name="dateTime">
+         <datetime>
+          <hour>12</hour>
+          <minute>20</minute>
+          <second>0</second>
+          <year>2021</year>
+          <month>1</month>
+          <day>18</day>
+         </datetime>
+        </property>
+        <property name="date">
+         <date>
+          <year>2021</year>
+          <month>1</month>
+          <day>18</day>
+         </date>
+        </property>
+        <property name="time">
+         <time>
+          <hour>12</hour>
+          <minute>20</minute>
+          <second>0</second>
+         </time>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>20</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>日期/时间</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>190</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>计数</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinBox_2">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>240</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>280</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>自动计数</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_61">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>330</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>打开</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_62">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>330</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_shujuku">
+       <widget class="QPushButton" name="set_pushButton_get_hostname">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>110</y>
+          <width>111</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>获取本机ip</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_show_hostname">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>110</y>
+          <width>231</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_devmode">
+       <widget class="QLabel" name="label_dev_exit_process">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>-10</y>
+          <width>680</width>
+          <height>480</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_test_all">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>81</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;黑体&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>整机测试</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_test_motor">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>81</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;黑体&quot;;
+
+</string>
+        </property>
+        <property name="text">
+         <string>电机测试</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_open_hateman">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>81</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;黑体&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>零位校准</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_save_zero">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>390</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>零位保存</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_close_hateman">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>430</y>
+          <width>81</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>退出</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>370</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>两点亮度</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>420</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>圆环亮度</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinBox_dev_laser">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>390</y>
+          <width>42</width>
+          <height>22</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="spinBox_dev_yuanhuan">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>440</y>
+          <width>42</width>
+          <height>22</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSlider" name="slider_dev_laser">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>390</y>
+          <width>160</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QSlider" name="slider_dev_yuanhuan">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>440</y>
+          <width>160</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_stop_test">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>180</y>
+          <width>81</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;黑体&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>终止测试</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_wuxiang_forward">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>372</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;黑体&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>物象电机向前</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_wuxiang_backward">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>430</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;黑体&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>物象电机向后</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dev_pushButton_exit_sys">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>230</y>
+          <width>81</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;黑体&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>关闭程序</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_show_contours">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>310</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>轮廓显示</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="set_pushButton_quguangdu">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>30</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(226, 226, 226);</string>
+      </property>
+      <property name="text">
+       <string>屈光度</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="set_pushButton_xinxi">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>30</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(226, 226, 226);</string>
+      </property>
+      <property name="text">
+       <string>信息传送</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="set_pushButton_printset">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>30</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(226, 226, 226);</string>
+      </property>
+      <property name="text">
+       <string>打印设置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="set_pushButton_moshi">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>30</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(226, 226, 226);</string>
+      </property>
+      <property name="text">
+       <string>模式</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="set_pushButton_qulv">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>30</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(226, 226, 226);</string>
+      </property>
+      <property name="text">
+       <string>曲率</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="set_pushButton_back">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>560</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(226, 226, 226);</string>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="set_pushButton_shuju">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>30</y>
+        <width>75</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(226, 226, 226);</string>
+      </property>
+      <property name="text">
+       <string>数据</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="set_pushButton_dev">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>30</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;
+background-color: rgb(226, 226, 226);</string>
+      </property>
+      <property name="text">
+       <string>开发者</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>slider_dev_laser</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_dev_laser</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>189</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>470</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slider_dev_yuanhuan</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_dev_yuanhuan</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>189</x>
+     <y>520</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>520</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_dev_laser</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>slider_dev_laser</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>189</x>
+     <y>470</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_dev_yuanhuan</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>slider_dev_yuanhuan</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>520</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>189</x>
+     <y>520</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
